@@ -137,6 +137,7 @@
 		float:right;
 		width:170px;
 		color:#a87f09;
+		list-style-type: none;
 	}
 	/*-------------------------------------------------------*/
 		/* Menu */
@@ -156,6 +157,7 @@
 	.tabs li {
 		float:left;
 		height:116px;
+		list-style-type: none;
 	}
 	.tabs li > a {
 		padding-top:80px;
@@ -167,12 +169,6 @@
 		color:#b9b9b9;
 		text-align:center;
 	}
-	.tabs li.active {
-		background:url('../images/tab-hover.png') no-repeat;
-	}
-	.tabs li.active a {
-		color:#fdc62a;
-	}
 	.tabs li .tab-profile {
 		background-image:url(../images/profile-icon.png);
 		background-position:center 40px;
@@ -181,7 +177,6 @@
 		background-image:url(../images/contact-icon.png);
 		background-position:center 41px;
 	}
-	
     #contact {
 		padding:30px 0;
 		overflow:hidden;
