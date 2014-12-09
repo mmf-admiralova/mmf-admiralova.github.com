@@ -123,6 +123,7 @@
 		font-size:14px;
 		margin-bottom:10px;
 		overflow: hidden;
+		list-style-type: none;
 	}
 	.personal-info li label {
 		color:#a87f09;
@@ -137,7 +138,6 @@
 		float:right;
 		width:170px;
 		color:#a87f09;
-		list-style-type: none;
 	}
 	/*-------------------------------------------------------*/
 		/* Menu */
@@ -151,7 +151,7 @@
 		height:116px;
 		position: absolute;
 		margin-top:-14px;
-		padding-left:3400px;
+		padding-left:340px;
 		z-index:100;
 	}
 	.tabs li {
